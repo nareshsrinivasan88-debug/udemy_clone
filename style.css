@@ -221,7 +221,7 @@ body {
     }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:600px) {
     .recommended__box__card{
         flex-basis: 40%;
     }
@@ -235,16 +235,13 @@ body {
     .categories{
         display: none;
     }
-    .navbar__box3{
+    .navbar__box3,.navbar__box2{
         display: none;
     }
-    .navbar__box2{
-        display: none;
-    }
-
     .navbar__box4{
         display: block;
     }
+    
 }
 
 
