@@ -52,6 +52,9 @@ body {
     align-items: center;
     gap: 15px;
 }
+.navbar__box4{
+    display: none;
+}
 
 .mylearning{
     position: relative;
@@ -139,9 +142,9 @@ body {
 }
 
 .recommended__box__card {
-    width: 400px;
-
-
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 10px;
 }
 
 .recommended__box__card img {
@@ -210,3 +213,39 @@ body {
 .footer__one p {
     margin: 10px;
 }
+ 
+/* Media Queries */
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .recommended__box__card{
+        flex-basis: 40%;
+    }
+       .sale__img__offer{
+        width: 140px;
+    }
+    .mylearning__popup{
+        width: 100px;
+        padding: 10px;
+    }
+    .categories{
+        display: none;
+    }
+    .navbar__box3{
+        display: none;
+    }
+    .navbar__box2{
+        display: none;
+    }
+
+    .navbar__box4{
+        display: block;
+    }
+}
+
+
+
